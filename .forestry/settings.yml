@@ -13,11 +13,13 @@ sections:
   match: "**/*"
   templates:
   - documentation-page
+  - documentation-page
 - type: heading
   label: Settings
 - type: document
   path: data/settings.json
   label: Menu
+  read_only: false
 upload_dir: static
 public_path: ''
 front_matter_path: ''
